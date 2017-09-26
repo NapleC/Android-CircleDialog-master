@@ -1,18 +1,10 @@
 # Android-CircleDialog 
  * 基于`DialogFragment`封装，已封装的对话框类型有，常规对话框、列表框、输入框、进度框；
  每个对话框类型也支持自定义边框圆角、背景透明度、字体大小与色值
- * 初衷是掌握知识点，此库不一定适合你的产品整体风格，当然能够适合你的项目最好不过，有建议和不足之处欢迎骚扰
 
 # 知识点
   全代码创建`shape`、`selector`、`Layout`，主要是`Drawable`所使用类如下：
   `ShapeDrawable`、`RoundRectShape`、`GradientDrawable`、`ClipDrawable`、`LayerDrawable`、`StateListDrawable`
-
-# 引入
-```xml
- compile 'com.hl:circleDialog:1.0.0'
-```
-
-eclipse 可以[点击这里下载aar文件](http://jcenter.bintray.com/com/mylhyl/circleDialog/), 然后用zip解压取出jar包
 
 # 使用
 简单的对话框
@@ -55,7 +47,6 @@ eclipse 可以[点击这里下载aar文件](http://jcenter.bintray.com/com/mylhy
                         })
                         .show();
 ```
-[更多参数](https://github.com/mylhyl/Android-CircleDialog/tree/master/circledialog/src/main/java/com/mylhyl/circledialog/params)
 
 #说明
 
